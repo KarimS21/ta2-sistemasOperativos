@@ -1,5 +1,5 @@
 from flask import Flask, redirect, url_for, render_template, request, session, Response
-from flask_mysqldb import MySQL, MySQLdb 
+#from flask_mysqldb import MySQL, MySQLdb 
 import conexion
 
 app = Flask(__name__)
